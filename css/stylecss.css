@@ -1,6 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Muli", san-serif;
+}
+
 .container {
-  width: 400px;
-  height: 400px;
+  max-width: 1110px;
+  margin: auto;
+  border: 1px solid red;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -87,7 +96,7 @@ abbr[title] {
   text-decoration: underline;
   /* 2 */
   -webkit-text-decoration: underline dotted;
-  text-decoration: underline dotted;
+          text-decoration: underline dotted;
   /* 2 */
 }
 
@@ -341,6 +350,4 @@ template {
  */
 [hidden] {
   display: none;
-}
-
-/*# sourceMappingURL=stylecss.css.map */
+}/*# sourceMappingURL=stylecss.css.map */
