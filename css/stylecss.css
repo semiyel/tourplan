@@ -3,7 +3,8 @@
 }
 
 body {
-  font-family: "Muli", san-serif;
+  font-family: "Mulish", san-serif;
+  color: #333333;
 }
 
 .container {
@@ -403,6 +404,7 @@ template {
      object-fit: cover;
 }
 .user__name {
+  margin-left: 18px;
   font-size: 14px;
   line-height: 18px;
 }/*# sourceMappingURL=stylecss.css.map */
