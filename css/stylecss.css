@@ -12,6 +12,10 @@ body {
   margin: auto;
 }
 
+p, li, h1 {
+  color: red;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -24,6 +28,10 @@ html {
   /* 1 */
   -webkit-text-size-adjust: 100%;
   /* 2 */
+}
+
+p, li, h1 {
+  color: red;
 }
 
 /* Sections
@@ -352,10 +360,10 @@ template {
   display: none;
 }
 
-.header {
+.navbar {
   background-color: #fff;
 }
-.header-top {
+.navbar-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -408,4 +416,10 @@ template {
   font-size: 14px;
   line-height: 18px;
   color: #333333;
+}
+
+.note {
+  color: red;
+  background: yellow;
+  font-weight: bold;
 }/*# sourceMappingURL=stylecss.css.map */
