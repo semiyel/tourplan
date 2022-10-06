@@ -5,6 +5,7 @@
 body {
   font-family: "Mulish", san-serif;
   color: #333333;
+  background-color: #F5FAFE;
 }
 
 .container {
@@ -357,7 +358,7 @@ template {
 }
 
 .navbar {
-  background-color: #fff;
+  background-color: #F5FAFE;
 }
 .navbar-top {
   display: flex;
@@ -447,6 +448,27 @@ template {
   color: red;
   background: yellow;
   font-weight: bold;
+}
+
+.breadcrumb-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  background-color: #fff;
+  padding: 18px 0px;
+  margin: 0;
+}
+.breadcrumb-list__item {
+  font-size: 10px;
+  line-height: 13px;
+}
+.breadcrumb-list__item:not(:last-child)::after {
+  content: "/";
+  margin-right: 4px;
+}
+.breadcrumb-list__link {
+  text-decoration: none;
+  color: inherit;
 }
 
 @media (max-width: 1200px) {
