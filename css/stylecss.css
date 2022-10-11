@@ -540,4 +540,64 @@ template {
   .logo {
     width: 99px;
   }
+}
+.hotel {
+  position: relative;
+  padding-top: 23px;
+  padding-bottom: 70px;
+}
+.hotel-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hotel-info__offer {
+  margin-left: 14px;
+  margin-top: 4px;
+}
+.hotel-name {
+  font-style: 24px;
+  line-height: 30px;
+  margin-top: 4px;
+  margin-bottom: 0px;
+}
+.hotel-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.hotel-description {
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.stars {
+  flex-basis: 100%;
+}
+
+.offer {
+  font-size: 10px;
+  line-height: 13px;
+  padding: 4px 9px;
+  background-color: #EC1F46;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.rating {
+  max-width: 65px;
+  max-height: 45px;
+  text-align: center;
+  color: #fff;
+  background-color: #EC1F46;
+  border-radius: 4px;
+}
+.rating__text {
+  font-size: 8px;
+  line-height: 10px;
+}
+.rating__counter {
+  font-size: 14px;
+  line-height: 18px;
+  font: bold;
 }/*# sourceMappingURL=stylecss.css.map */
