@@ -492,6 +492,7 @@ template {
   font-style: 24px;
   line-height: 30px;
   margin: 0;
+  text-transform: uppercase;
 }
 .hotel-wrapper {
   display: flex;
