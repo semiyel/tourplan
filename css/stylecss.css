@@ -632,7 +632,7 @@ template {
   position: relative;
 }
 
-.swiper-button {
+.slider-button {
   position: absolute;
   width: 30px;
   height: 30px;
@@ -643,9 +643,9 @@ template {
   z-index: 99;
   cursor: pointer;
 }
-.swiper-button--next {
+.slider-button--next {
   right: 18px;
 }
-.swiper-button--prev {
+.slider-button--prev {
   left: 18px;
 }/*# sourceMappingURL=stylecss.css.map */
