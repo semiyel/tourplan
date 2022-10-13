@@ -624,4 +624,28 @@ template {
   font-size: 14px;
   line-height: 18px;
   font: bold;
+}
+
+.swiper {
+  width: 600px;
+  height: 300px;
+  position: relative;
+}
+
+.swiper-button {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background-color: #ff0000;
+  z-index: 99;
+  cursor: pointer;
+}
+.swiper-button--next {
+  right: 18px;
+}
+.swiper-button--prev {
+  left: 18px;
 }/*# sourceMappingURL=stylecss.css.map */
