@@ -491,6 +491,7 @@ template {
 .hotel-name {
   font-style: 24px;
   line-height: 30px;
+  margin: 0;
 }
 .hotel-wrapper {
   display: flex;
@@ -546,14 +547,14 @@ template {
   top: 50%;
   transform: translateY(-50%);
   border: none;
-  background-color: #ff0000;
   z-index: 99;
   cursor: pointer;
+  background-color: transparent;
 }
-.slider-button--next {
+.slider-button-next {
   right: 18px;
 }
-.slider-button--prev {
+.slider-button-prev {
   left: 18px;
 }
 
