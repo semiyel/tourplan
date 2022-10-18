@@ -4,14 +4,15 @@
     padding-bottom: 70px
     &-info
         display: flex
+        flex-direction: row
         align-items: center
         justify-content: space-between
+        padding-bottom: 20px
         &__offer
             margin-left: 14px
             margin-top: 4px
         &__description
             margin: 0px
-
     &-name
         font-style: 24px
         line-height: 30px
@@ -48,10 +49,24 @@
         line-height: 18px
         font: bold
 .swiper
-    width: 600px
-    height: 300px
+    width: 100%
+    height: 450px
     position: relative
+    &::after
+        content: ''
+        position: absolute
+        width: 100%
+        height: 100%
+        top: 0
+        bottom: 0
+        left: 0
+        right: 0
+        background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%)
+        z-index: 10
+        border-radius: 8px
+
 .slider
+    width: 728px
     &-button
         position: absolute
         width: 30px
@@ -62,7 +77,12 @@
         z-index: 99
         cursor: pointer
         background-color: transparent
+        background-repeat: no-repeat
+        background-position: center
+        background-size: 10px
         &-next
             right: 18px
+            background-image: url(../img/right.svg)
         &-prev
             left: 18px
+            background-image: url(../img/left.svg)
