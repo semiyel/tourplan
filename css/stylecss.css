@@ -751,7 +751,12 @@ template {
     background-color: #333333;
   }
   .stars {
-    flex-basis: content;
+    flex-basis: 75%;
+    order: -1;
+  }
+  .hotel__flash {
+    flex-basis: 67px;
+    order: -1;
   }
   .hotel-name {
     flex-basis: 100%;
