@@ -903,6 +903,9 @@ template {
     flex-direction: column;
     align-items: flex-start;
   }
+  .subscribe {
+    width: 100%;
+  }
 }
 @media (max-width: 576px) {
   .logo {
@@ -917,8 +920,14 @@ template {
   .newsletter {
     padding: 76px 0 83px 0;
   }
-  .newsletter__title {
+  .newsletter-title {
     margin-bottom: 37px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .newsletter-title__strong {
+    font-size: 30px;
+    line-height: 38px;
   }
   .subscribe {
     width: 100%;
