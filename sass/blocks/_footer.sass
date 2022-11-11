@@ -17,7 +17,7 @@
     &__social
         &-network
             display: flex
-            align-content: center
+            align-items: center
             grid-row: 2/4
             grid-column: span 2
         &-links
@@ -67,6 +67,7 @@
         color: $footer-text-color
         margin-bottom: 22px
     &__link
+        height: 20px
         text-decoration: none
         font-style: normal
         font-weight: 400
@@ -98,10 +99,34 @@
         color: $light
         background-color: $primary
         border: none
-        background-repeat: 4px
+        border-radius: 4px
+        cursor: pointer
     &__info
         font-style: normal
         font-weight: 700
         font-size: 12px
         line-height: 15px
         color: $footer-text-color
+    &__wrapper
+        display: flex
+        width: 100%
+        justify-content: space-between
+        margin: 102px auto 0px auto
+        background-color: $dark
+    &__uls
+        display: flex
+        justify-content: space-between
+        align-items: start
+        width: 282px
+        height: 15px
+        list-style: none
+        margin: 0
+        padding: 0
+    &__items
+        font-style: normal
+        font-weight: 400
+        font-size: 12px
+        line-height: 15px
+    &__links
+        text-decoration: none
+        color: inherit

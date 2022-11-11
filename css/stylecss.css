@@ -969,7 +969,7 @@ template {
 }
 .footer__social-network {
   display: flex;
-  align-content: center;
+  align-items: center;
   grid-row: 2/4;
   grid-column: span 2;
 }
@@ -1030,6 +1030,7 @@ template {
   margin-bottom: 22px;
 }
 .footer__link {
+  height: 20px;
   text-decoration: none;
   font-style: normal;
   font-weight: 400;
@@ -1064,7 +1065,8 @@ template {
   color: #fff;
   background-color: #EC1F46;
   border: none;
-  background-repeat: 4px;
+  border-radius: 4px;
+  cursor: pointer;
 }
 .footer__info {
   font-style: normal;
@@ -1072,6 +1074,33 @@ template {
   font-size: 12px;
   line-height: 15px;
   color: #BDBDBD;
+}
+.footer__wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 102px auto 0px auto;
+  background-color: #0A223D;
+}
+.footer__uls {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 282px;
+  height: 15px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer__items {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+.footer__links {
+  text-decoration: none;
+  color: inherit;
 }
 
 @media (max-width: 1200px) {
