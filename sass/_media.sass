@@ -103,13 +103,44 @@
     .container
         max-width: 576px
         width: 92%
-
     .navbar
-        &__search, &-menu, &__user
-            display: none
+        &--mobile
+            &__fixed
+                position: sticky
+                top: 0
+                left: 0
+                right: 0
+                z-index: 99
+        &__user, &__search
+            &--mobile
+                &_hidden
+                    display: none
+                &_visible
+                    display: flex
+        &__user
+            flex-direction: column
+            justify-content: space-between
         &_top
             &__menu-button
                 display: flex
+        &-bottom
+            display: none
+            position: fixed
+            left: 0
+            right: 0
+            bottom: 0
+            top: 78px
+            padding-top: 30px
+            &--visible
+                display: block
+        &-menu
+            flex-direction: column
+            &__item
+                margin-bottom: 20px
+                &--mobile
+                    &_visible
+                        margin-bottom: 20px
+                        display: block
         .menu
             &-button
                 display: flex
@@ -126,6 +157,12 @@
                     width: 16px
                     height: 1px
                     background-color: $text-color
+    .user
+        &__name
+            &--light
+                color: $light
+                margin-left: 0
+                margin-top: 10px
     .stars
         flex-basis: 55%
         order: -1
