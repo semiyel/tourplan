@@ -533,7 +533,35 @@
       </div>
       <!-- /.container -->
     </footer>
-    <!-- /.activities -->
+    <!-- /.footer -->
+    <div class="modal">
+      <div class="modal__overlay"></div>
+      <!-- /.modal__overlay -->
+      <div class="modal__dialog">
+        <a href="" class="modal__close">
+          <img src="img/close.svg" alt="Icon: close" />
+        </a>
+        <form action="#" class="footer__form">
+          <input
+            type="text"
+            class="input footer__input"
+            placeholder="Your Full Name*" />
+          <input
+            type="text"
+            class="input footer__input"
+            placeholder="Phone Number*" />
+          <textarea
+            cols="30"
+            rows="10"
+            class="footer__message"
+            placeholder="Message"></textarea>
+          <button type="submit" class="footer__button">Send</button>
+          <span class="footer__info">* Required Fields</span>
+        </form>
+      </div>
+      <!-- /.modal__dialog -->
+    </div>
+    <!-- /.modal -->
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>
